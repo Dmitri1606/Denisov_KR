@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 df_excel = pd.read_excel("Книга111.xlsx")
-df = pd.read_excel("Книга11.xlsx")
+
 
 x = df_excel["X"]
 y = df_excel["Y"]
